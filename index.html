@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <title>WebAgency</title>
+</head>
+<body >
+    <div class="main">
+        <header>
+            <img class="LogoHeader" src="./images/logo.png" alt="Web Agency">
+            <nav onmouseout="chbg(0)" >
+                <a href="#Acceuil">
+                    <button onmouseover="chbg(1)" class="Button">
+                        <div id='test1'onmouseover="chbg(1)" class="invisibleLine"></div>
+                        <i>Acceuil</i>
+                    </button></a>
+                <a href="#Service">
+                    <button onmouseover="chbg(2)" class="Button">
+                        <div id='test2' onmouseover="chbg(2)" class="invisibleLine"></div>
+                        <i>Service</i>
+                    </button></a>
+                <a href="#portfolio">
+                    <button onmouseover="chbg(3)" class="Button">
+                        <div id='test3' onmouseover="chbg(3)" class="invisibleLine"></div>
+                        <i>Portfolio</i>
+                    </button></a>
+                <a href="#Contacts">
+                    <button onmouseover="chbg(4)" class="Button">
+                        <div id='test4' onmouseover="chbg(4)" class="invisibleLine"></div>
+                        <i>Contact</i>
+                    </button></a>    
+            </nav>    
+        </header>
+        <div id="Acceuil" class="carousselWarper">
+            <nav class="carousselNav ">
+                <div class="carousselNavEnfant carousselNavFleche Gauche">
+                    <i class="fas fa-angle-left"></i>
+                </div>
+                <div class="carousselNavEnfant carousselNavInfo">
+                   <p style="margin-bottom: 0;"><Span style="color: rgb(0, 183, 255);">WEBAGENCY</Span> : L'AGENCE DE TOUS VOS PROJETS!</p>                   
+                   <p style='margin-top: 5px; font-size: 16px;'>vous avez un projet ? la WebAgency vous aide à le réaliser !</p>
+                   <a href="#Service"><button class="navButton" >Plus d'info</button></a>
+                </div>
+                <div class="carousselNavEnfant carousselNavFleche Droite">
+                    <i class="fas fa-angle-right"></i>
+                </div>
+            </nav>
+        </div>
+        <div id="Service" class="grid">
+            <p class="gridFullRow bigFontSize">NOS SERVICES</p>
+            <div class="gridFullRow point"></div>
+            <p class="gridHalfCenter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam itaque iure maxime voluptates? Labore temporibus dolorum quae cupiditate, totam commodi impedit amet facere mollitia ex minima nisi quod, sunt illo.</p>
+            
+            <div style="display: flex;justify-content: space-around;flex-direction: column;align-items: center;"class="gridHalfLeft">
+                <img style="width: 50%; min-height: 179px;min-width: 262px;" src="./images/main-feature.png" alt="écran de pc">
+            </div>
+            <nav class="gridHalfRight boxColumns">
+                <div class="boxRow">
+                    <div class="boxLogo">
+                        <i id="fontBoutonLogo" class="fas fa-chart-line"></i>
+                        <div class="point"></div>
+                    </div>
+                    <div class="boxDescritption">
+                        <b>UX design</b>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, deleniti aliquid? Ratione maxime voluptates reiciendis officiis sint. Quidem consequatur nihil incidunt expedita voluptates illo ratione, sit autem est tempora corporis.</p>
+                    </div>
+                </div>
+                <div class="boxRow">
+                    <div class="boxLogo">
+                        <i id="fontBoutonLogo" class="fas fa-cubes"></i>
+                        <div class="point"></div>
+                    </div>
+                    <div class="boxDescritption">
+                        <b>UI design</b>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, deleniti aliquid? Ratione maxime voluptates reiciendis officiis sint. Quidem consequatur nihil incidunt expedita voluptates illo ratione, sit autem est tempora corporis.</p>
+                    </div>
+                </div>
+                <div class="boxRow">
+                    <div class="boxLogo">
+                        <i id="fontBoutonLogo" class="fas fa-chart-pie"></i>
+                        <div class="point"></div>
+                    </div>
+                    <div class="boxDescritption">
+                        <b>SEO</b>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, deleniti aliquid? Ratione maxime voluptates reiciendis officiis sint. Quidem consequatur nihil incidunt expedita voluptates illo ratione, sit autem est tempora corporis.</p>
+                    </div>
+                </div>                
+            </nav>
+        </div>
+        <div id="portfolio" class="grid">
+            <p class="gridFullRow bigFontSize">NOS PROJETS</p>
+            <div class="gridFullRow point"></div>
+            <p class="gridHalfCenter">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam itaque iure maxime voluptates? Labore temporibus dolorum quae cupiditate, totam commodi impedit amet facere mollitia ex minima nisi quod, sunt illo.</p>
+            <div class="gridFullRow">
+                <nav style="justify-content: center;" class="boxRow">
+                    <div class="bouttonProjet bouttonRoundGauche selectedBoutton">
+                        All Works
+                    </div>
+                    <div class="bouttonProjet">
+                        Creative
+                    </div>
+                    <div class="bouttonProjet">
+                        Corporate
+                    </div>
+                    <div class="bouttonProjet bouttonRoundDroite">
+                        Portfolio
+                    </div>
+                </nav>
+            </div>
+            <nav class="gridFullRow grid">
+               
+                <div class="portFolioContainer">
+                    <img  style="width: 80%;" src="./images/portfolio/01.jpg" alt="écran de pc">
+                </div>
+                <div class="portFolioContainer">
+                    <img style="width: 80%;"  src="./images/portfolio/02.jpg" alt="écran de pc">
+                </div>
+                <div class="portFolioContainer">
+                    <img style="width: 80%;" src="./images/portfolio/03.jpg" alt="écran de pc">
+                </div>
+                <div style="align-items: center;" class="portFolioContainer boxColumns">
+                    <img style="width: 80%;" src="./images/portfolio/04.jpg" alt="écran de pc">
+                    <div class="portFolioNotif">
+                        <p>Portfolio Item 4</p>
+                        <p>Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+                <div class="portFolioContainer">
+                    <img style="width: 80%;"  src="./images/portfolio/05.jpg" alt="écran de pc">
+                </div>
+                <div class="portFolioContainer">
+                    <img style="width: 80%;"  src="./images/portfolio/06.jpg" alt="écran de pc">
+                </div>
+                <div class="portFolioContainer">
+                    <img style="width: 80%;"  src="./images/portfolio/07.jpg" alt="écran de pc">
+                </div>
+                <div class="portFolioContainer">
+                    <img style="width: 80%;"  src="./images/portfolio/08.jpg" alt="écran de pc">
+                </div>
+                <div class="portFolioContainer">
+                    <img style="width: 80%;"  src="./images/portfolio/full.jpg" alt="écran de pc">
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div id="Contacts">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d46351.23418400351!2d1.2637012224292938!3d43.440715606963465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12aec9832d23a1b1%3A0x406f69c2f411a30!2s31600%20Muret!5e0!3m2!1sfr!2sfr!4v1604250211050!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <form class="boxColumns contactForm" action="">
+            <p class="bigFontSize fromMarge">Contact Ifno</p>
+            
+            <pre class="fromMarge" >
+Muret, 31600 
+ville et info sure
+lorem ipsum    
+            </pre>
+            <input class="inputMarge"type="text" placeholder="Name">
+            <input class="inputMarge"type="mail" placeholder="Email">
+            <input class="inputMarge"type="text" placeholder="Subject">
+            <textarea placeholder="Message" class="textAreaMarge" name="content" id="content" cols="30" rows="10"></textarea>
+           <button class="navButton formButton" type="submit" >Send Message</button>
+        </form>
+    </div>
+    <script type="text/javascript">
+        function chbg(id) {
+            for(let i = 1; i<=4; i++)
+                document.getElementById("test"+i).style.backgroundColor = i==id? "#158af0":  "#158af000";
+        }   
+    </script>
+</body>
+</html>
